@@ -1,0 +1,132 @@
+.text-center {
+    text-align: center
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.bold {
+    font-weight: 700
+}
+
+.none {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.opacity0 {
+    opacity: 0
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.white {
+    color: #fff !important
+}
+
+.block {
+    display: block !important
+}
+
+body {
+    color: #0f0f0f;
+    font-family: "proxima_nova";
+    margin: 0 auto;
+    height: 100%;
+    width: 100%
+}
+
+
+
+.module-header {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 30px
+}
+
+.catalog {
+    background: url("../img/public/pat.png");
+    padding-bottom: 30px
+}
+
+.catalog-item {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.catalog-head {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.catalog .button {
+    width: 205px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: red;
+    background: -moz-linear-gradient(top, red 0, #ff1d1d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, red), color-stop(100%, #ff1d1d));
+    background: -webkit-linear-gradient(top, red 0, #ff1d1d 100%);
+    background: -o-linear-gradient(top, red 0, #ff1d1d 100%);
+    background: -ms-linear-gradient(top, red 0, #ff1d1d 100%);
+    background: linear-gradient(to bottom, red 0, #ff1d1d 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ff0000, endColorstr=#ff1d1d, GradientType=0);
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    -webkit-box-shadow: 0 0 0 1px #b70000;
+    -moz-box-shadow: 0 0 0 1px #b70000;
+    box-shadow: 0 0 0 1px #b70000;
+    margin-top: 10px;
+    font-size: 18px
+}
+
+.catalog-price {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

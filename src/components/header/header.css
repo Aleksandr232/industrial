@@ -1,0 +1,186 @@
+.module  {
+    background: url('bg.jpg') center/cover no-repeat  ;
+    height: 100vh;
+    text-align: center;
+}
+
+.btn {
+    width: 235px;
+    height: 45px;
+    background-color: #000;
+    color: white;
+    margin: 200px auto;
+    border-radius: 10px
+}
+
+
+.btn:hover {
+    content: '';
+    transform: translate(-10px)
+}
+
+.phone-button {
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    background: #5bc0de;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    z-index: 9999;
+    color:#000;
+    
+    
+}
+
+.phone-button:hover{
+    transform: translateY(-10px);
+}
+
+.phone-button a {
+    color:#000;
+    
+}
+
+.phone-button:before,
+.phone-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #000;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+    
+}
+.phone-button:after{
+    animation-delay: .5s;
+    cursor: pointer;
+}
+.phone-button i {
+        color:black;
+        transition:.3s;
+        animation: 1200ms ease 0s normal none 1 running shake;
+        animation-iteration-count: infinite;
+        
+} 
+
+
+@keyframes animate{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+@keyframes shake {
+0% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+10% {
+    transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+}
+20% {
+    transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+}
+30% {
+    transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+}
+40% {
+    transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+    transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+}
+60% {
+    transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+}
+70% {
+    transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+    transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+    transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+
+
+}
+
+
+@media (max-width: 575px){
+    html {
+        overflow-x: hidden;
+      }
+    
+    body{
+        overflow-x:hidden;
+    }
+    .module  {
+        background: url('https://alp-ur.ru/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%BD%D0%B8%D0%B7%D0%BC.html/%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%8B-%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-85-5.jpg')no-repeat;
+        height: 1215px;
+        
+    }
+
+    #utp1 {
+        display: block;
+        font-size: 12px;
+        width: 452px;
+        margin-left: 48px;
+    
+    } 
+
+    .btn {
+        width: 235px;
+        height: 45px;
+        background-color: #000;
+        color: white;
+        margin: 200px 0px 0px -492px;
+        border-radius: 10px
+    }
+}

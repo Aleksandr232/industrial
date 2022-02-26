@@ -1,0 +1,33 @@
+.photo-block{
+    width: 290px;
+    height: 195px;
+}
+
+.carousel-caption{
+    margin: 90px;
+    position: sticky;
+    color:black;
+}    
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+    
+}
+
+.carousel-control-next{
+    right: 11px;
+    
+}
+
+.carousel-control-prev {
+    left: -56px;
+}
+
+.img_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 302px);
+}

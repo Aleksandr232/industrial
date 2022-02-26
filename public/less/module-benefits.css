@@ -1,0 +1,27 @@
+.benefits {
+    padding-bottom: 40px
+}
+
+.ben-item {
+    text-align: center;
+    margin-bottom: 24px;
+    position: relative
+}
+
+.ben-item .ben-line {
+    position: absolute;
+    width: 210px;
+    height: 1px;
+    top: 63px;
+    left: 225px;
+    border-top: 1px dashed #e0dfe3
+}
+
+.ben-text {
+    font-weight: 200;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

@@ -1,0 +1,137 @@
+.text-center {
+    text-align: center
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.bold {
+    font-weight: 700
+}
+
+.none {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.opacity0 {
+    opacity: 0
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.white {
+    color: #fff !important
+}
+
+.block {
+    display: block !important
+}
+
+body {
+    color: #0f0f0f;
+    font-family: "proxima_nova";
+    margin: 0 auto;
+    height: 100%;
+    width: 100%
+}
+
+
+
+.module-header {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 30px
+}
+
+.photo {
+    background: url("../img/public/pat.png")
+}
+
+.slick-prev {
+    background: url("../img/module-photo/left.png") no-repeat left center;
+    top: 50px;
+    left: -35px;
+    margin-top: 0
+}
+
+.slick-next,
+.slick-prev {
+    background: url("../img/module-photo/right.png") #ebebeb no-repeat center center;
+    width: 85px;
+    height: 70px;
+    top: 230px;
+    margin-top: 0
+}
+
+.slick-next {
+    right: 170px
+}
+
+.slick-prev {
+    background: url("../img/module-photo/left.png") #ebebeb no-repeat center center;
+    left: 170px
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: ''
+}
+
+.slick-slide {
+    position: relative;
+    text-align: center
+}
+
+.slick-slide img {
+    display: inline-block
+}
+
+.photo-block-text {
+    text-align: center;
+    width: 450px;
+    height: 70px;
+    background: #fff;
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

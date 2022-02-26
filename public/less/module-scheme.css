@@ -1,0 +1,123 @@
+.text-center {
+    text-align: center
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.bold {
+    font-weight: 700
+}
+
+.none {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.opacity0 {
+    opacity: 0
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.white {
+    color: #fff !important
+}
+
+.block {
+    display: block !important
+}
+
+body {
+    color: #0f0f0f;
+    font-family: "proxima_nova";
+    margin: 0 auto;
+    height: 100%;
+    width: 100%
+}
+
+.module {
+    max-width: 1920px;
+    min-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.module-header1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -70px;
+    margin-bottom: 179px
+}
+
+.scheme {
+    padding-top: 175px;
+   
+}
+
+.scheme-item {
+    text-align: center;
+    position: relative;
+    margin-top: 5px
+}
+
+.scheme-text {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 4px
+}
+
+.scheme .arrow-down {
+    background: url("../module-scheme/arrow-down.png");
+    width: 105px;
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    right: -52px
+}
+
+.scheme .arrow-up {
+    background: url("../module-scheme/arrow-up.png");
+    width: 105px;
+    height: 26px;
+    position: absolute;
+    top: 98px;
+    right: -52px
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

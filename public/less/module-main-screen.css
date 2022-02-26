@@ -1,0 +1,306 @@
+.text-center {
+    text-align: center
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.bold {
+    font-weight: 700
+}
+
+.none {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.opacity0 {
+    opacity: 0
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.white {
+    color: #fff !important
+}
+
+.block {
+    display: block !important
+}
+
+body {
+    color: #0f0f0f;
+    font-family: "proxima_nova";
+    margin: 0 auto;
+    height: 100%;
+    width: 100%
+}
+
+.module {
+    max-width: 1920px;
+    min-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.module-header {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 30px
+}
+
+
+
+.utp {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 44px;
+    height: 65px;
+    line-height: 75px;
+    padding: 0 40px;
+    background: rgba(255, 255, 255, .8);
+    display: inline-block
+}
+
+.utp2 {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, .8);
+    display: inline-block
+}
+
+.utp3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    width: 600px;
+    color: #525252;
+    background: rgba(255, 255, 255, .8);
+    position: relative
+}
+
+.utp3:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    height: 1px;
+    background: #e0dfe3;
+    width: 400px;
+    content: ''
+}
+
+.center-form {
+    background: rgba(255, 255, 255, .9);
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 50px
+}
+
+.action-part {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    text-align: center
+}
+
+.order-part {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 335px;
+    text-align: center;
+    vertical-align: top;
+    padding-bottom: 10px
+}
+
+.action-text1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #e30000;
+    margin: 20px 30px 16px 30px;
+    background: url("../img/public/line2.png") no-repeat bottom center;
+    margin-top: 10px
+}
+
+.action-text2 {
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.action-text2 span {
+    font-weight: 500;
+    color: #e30000;
+    text-align: center
+}
+
+.order-text1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 20px 30px 16px 30px
+}
+
+.order-text2 {
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.warranty {
+    font-weight: 200;
+    font-size: 14px;
+    color: #454545;
+    text-align: center;
+    margin: 10px
+}
+
+.main-screen .button {
+    width: 254px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: #ff1d1d;
+    background: -moz-linear-gradient(top, #ff1d1d 0, red 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff1d1d), color-stop(100%, red));
+    background: -webkit-linear-gradient(top, #ff1d1d 0, red 100%);
+    background: -o-linear-gradient(top, #ff1d1d 0, red 100%);
+    background: -ms-linear-gradient(top, #ff1d1d 0, red 100%);
+    background: linear-gradient(to bottom, #ff1d1d 0, red 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ff1d1d, endColorstr=#ff0000, GradientType=0);
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    -webkit-box-shadow: 0 0 0 1px #b70000;
+    -moz-box-shadow: 0 0 0 1px #b70000;
+    box-shadow: 0 0 0 1px #b70000
+}
+
+.header .button {
+    width: 185px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: #ffe600;
+    background: -moz-linear-gradient(top, #ffe600 0, #ec9b00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe600), color-stop(100%, #ec9b00));
+    background: -webkit-linear-gradient(top, #ffe600 0, #ec9b00 100%);
+    background: -o-linear-gradient(top, #ffe600 0, #ec9b00 100%);
+    background: -ms-linear-gradient(top, #ffe600 0, #ec9b00 100%);
+    background: linear-gradient(to bottom, #ffe600 0, #ec9b00 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ff1d1d, endColorstr=#ff0000, GradientType=0);
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    -webkit-box-shadow: 0 0 0 1px #f6c349;
+    -moz-box-shadow: 0 0 0 1px #f6c349;
+    box-shadow: 0 0 0 1px #f6c349;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-top: 4px
+}
+
+.header {
+    margin-top: 50px !important
+}
+
+.header-text {
+    text-align: center;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 28px
+}
+
+.header-text2 {
+    text-align: right;
+    font-weight: 200;
+    font-size: 14px;
+    margin-right: 5px
+}
+
+.header-phone {
+    text-align: right;
+    font-weight: 200;
+    font-size: 29px;
+    margin-right: 5px;
+    background: url("../img/public/phone.png") no-repeat center left;
+    box-sizing: border-box;
+    padding-left: 28px;
+    display: inline-block
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
