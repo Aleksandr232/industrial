@@ -7,6 +7,8 @@ import Jobs from '../jobs/jobs';
 import Schema from '../schema/schema';
 import Photo from '../photo/photo';
 
+import './media.css';
+
 
 
 
