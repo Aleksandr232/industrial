@@ -643,8 +643,3 @@
   Move to separate stylesheet if invalid CSS is a problem.
 */
 
-.clearfix,
-.container-12,
-.container-16 {
-  zoom: 1;
-}
