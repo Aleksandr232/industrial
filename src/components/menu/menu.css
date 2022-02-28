@@ -131,13 +131,7 @@ svg{
 
 
 @media (max-width:575px) {
-  .bm-burger-button {
-      position: absolute;
-      width: 50px;
-      height: 70px;
-      margin: 75px -1061px;
-      
-  }
+  
 
   #list {
     margin-top: 40px;
