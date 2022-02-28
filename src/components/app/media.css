@@ -18,10 +18,13 @@
     }
     
     .bm-burger-button {
+    display: inline;
+    background: url("climber.png") no-repeat;
     position: absolute;
     width: 50px;
     height: 70px;
-    margin: 81px -1180px;
+    margin: 126px 282px;
+    visibility: visible;
 
     }
 
@@ -29,6 +32,10 @@
         margin-top: 3px;
         height: 120px;
         
+    }
+
+    .grid_header{
+        visibility: hidden;
     }
         
 

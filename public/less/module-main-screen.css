@@ -87,7 +87,8 @@
     height: 65px;
     padding: 0 40px;
     background: rgba(255, 255, 255, .8);
-    display: inline-block
+    display: inline-block;
+    border-radius: 20px;
 }
 
 .utp2 {
