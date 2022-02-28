@@ -39,9 +39,6 @@
     opacity: 0
 }
 
-.relative {
-    position: relative
-}
 
 .absolute {
     position: absolute
@@ -59,13 +56,7 @@
     display: block !important
 }
 
-body {
-    color: #0f0f0f;
-    font-family: "proxima_nova";
-    margin: 0 auto;
-    height: 100%;
-    width: 100%
-}
+
 
 .module {
     max-width: 1920px;
