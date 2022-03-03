@@ -31,3 +31,34 @@
     display: grid;
     grid-template-columns: repeat(3, 302px);
 }
+
+.grid_photo{
+    display: grid;
+    margin: 70px auto;
+    grid-template-columns: repeat(4, 131px);
+    justify-content: space-evenly;
+    
+}
+
+.link_photo{
+    text-align: center;
+    background-color: black;
+    border-radius:10px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+.link_photo:hover{
+    content:'';
+    transform: translateX(10px);
+    transition: 0.6 all;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+
+
+
+ 

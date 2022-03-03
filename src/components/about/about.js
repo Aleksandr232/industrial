@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import './about.css'
 
@@ -11,16 +12,17 @@ import r from './r.png'
 
 const About=()=>{
     return(
-    <section>
+    <section className="about">
         <div id="benefits" class="benefits">
-    <div class="container-12 relative">
-        <div id="benefits-header1" class="module-header content-editable" contenteditable="true">
+    <div class="container-12 relative" id='module_phone'>
+        <div id="benefits-header1" class="module-header content-editable" >
             Ваши глаза боятся,<br/>
             <span >наши руки делают</span>
         </div>
 
         
-
+        <div className="grid_about_phone">
+            
         <div class="grid-4">
             <div class="ben-item">
                 <div class="ben-line"></div>
@@ -69,7 +71,13 @@ const About=()=>{
                 </div>
             </div>
         </div>
-
+        </div>
+        <div className="grid_about">
+               <Link className="link_about" to="/">Главная</Link>
+               <Link  className='link_about' to="/jobs">Виды работ</Link>
+                <Link className='link_about' to="/schema">Схема работ</Link>
+                <Link className='link_about' to="/photo">Фотогалерея</Link>
+           </div>
     </div>
     </div>
     </section>

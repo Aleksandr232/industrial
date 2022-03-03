@@ -1,18 +1,12 @@
-span{
-    font-weight: 600;
-    color: #cb0000;
-    text-transform: uppercase;
-}
-
-.grid_about{
+.grid_jobs{
     display: grid;
-    margin: 284px auto;
+    margin: 310px auto;
     grid-template-columns: repeat(4, 131px);
     justify-content: space-evenly;
     
 }
 
-.link_about{
+.link_jobs{
     text-align: center;
     background-color: black;
     border-radius:10px;
@@ -21,10 +15,13 @@ span{
     text-decoration: none;
 }
 
-.link_about:hover{
+.link_jobs:hover{
     content:'';
     transform: translateX(10px);
     transition: 0.6 all;
 }
 
-
+body
+{
+  overflow-y: auto;
+}

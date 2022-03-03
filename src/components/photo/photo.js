@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import { Link } from 'react-router-dom'
 import one from './img/one.jpg'
 import two from './img/two.jpg'
 import fri from './img/fri.jpg'
@@ -18,7 +19,7 @@ import './photo.css'
 const Photo=()=>{
     return(
     <section>
-        <div id="photo" class="photo">
+        <div id="element" class="photo">
             <div class="container-12 ">
                 <div id="photo-header1" class="module-header content-editable" >Фотогалерея</div>
                 <Carousel>
@@ -114,10 +115,18 @@ const Photo=()=>{
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+<div className="grid_photo">
+               <Link className="link_photo" to="/">Главная</Link>
+               <Link  className='link_photo' to="/about">О нас</Link>
+                <Link className='link_photo' to="/jobs">Виды работ</Link>
+                <Link className='link_photo' to="/schema">Схема работ</Link>
+           </div>
+
             </div>
         </div>
+       
     </section>
-        
+     
         
         
     )

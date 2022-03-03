@@ -1,14 +1,18 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import one from './one.png'
 import two from './two.png'
 import fri from './fri.png'
 import four from './four.png'
 
+import './schema.css'
+
 const Schema=()=>{
     return(
         
-    <div id="scheme" class="scheme">
+    <div id="element" class="scheme">
     <div class="container-12 relative">
 
         <div id="scheme-header1" class="module-header1 content-editable" >Схема работы</div>
@@ -51,7 +55,12 @@ const Schema=()=>{
                 работы
             </div>
         </div>
-
+        <div className="grid_schema">
+               <Link className="link_schema" to="/">Главная</Link>
+               <Link  className='link_schema' to="/about">О нас</Link>
+                <Link className='link_schema' to="/jobs">Виды работ</Link>
+                <Link className='link_schema' to="/photo">Фотогалерея</Link>
+           </div>
     </div>
     </div>
     )

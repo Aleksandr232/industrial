@@ -1,18 +1,12 @@
-span{
-    font-weight: 600;
-    color: #cb0000;
-    text-transform: uppercase;
-}
-
-.grid_about{
+.grid_schema{
     display: grid;
-    margin: 284px auto;
+    margin: 502px auto;
     grid-template-columns: repeat(4, 131px);
     justify-content: space-evenly;
     
 }
 
-.link_about{
+.link_schema{
     text-align: center;
     background-color: black;
     border-radius:10px;
@@ -20,8 +14,7 @@ span{
     font-weight: 900;
     text-decoration: none;
 }
-
-.link_about:hover{
+.link_schema:hover{
     content:'';
     transform: translateX(10px);
     transition: 0.6 all;

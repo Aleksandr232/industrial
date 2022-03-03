@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import one from './one.jpg'
 import two from './two.jpg'
 import fri from './fri.jpg'
@@ -15,10 +17,12 @@ import twele from './twele.jpg'
 import thirteen from './thirteen.jpg'
 import fourteen from './fourteen.jpg'
 
+import './jobs.css';
+
 const Jobs=()=>{
     return(
         <div id="catalog" class="catalog">
-        <div class="container-12 ">
+        <div class="container-12 " id="container-12phone">
         <div id="catalog-header1" class="module-header content-editable" >Виды работ</div>
 
             <div class="grid-3">
@@ -235,6 +239,13 @@ const Jobs=()=>{
                 </div>
             </div>
         </div>
+
+        <div className="grid_jobs">
+               <Link className="link_jobs" to="/">Главная</Link>
+               <Link  className='link_jobs' to="/about">О нас</Link>
+                <Link className='link_jobs' to="/schema">Схема работ</Link>
+                <Link className='link_jobs' to="/photo">Фотогалерея</Link>
+           </div>
     </div>
     </div>
     )
