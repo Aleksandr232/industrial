@@ -96,7 +96,44 @@
 
     }
 
+    #benefits-header1{
+        font-size: 32px;
+    }
+
+    #scheme-header1{
+        font-size: 42px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: -177px;
+        margin-bottom: -11px;
+    }
+
+    .carousel-control-next-icon{
+        visibility: hidden;
+    }
+
+    .carousel-control-prev-icon{
+        visibility: hidden;
+    }
     
+    .img_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 122px);
+        justify-content: center;
+    }
+
+    .carousel-inner{
+        margin: 122px auto;
+    }
+
+    .photo-block{
+        width: 152px;
+    }
+
+    .grid_photo{
+        visibility: hidden;
+    }
 }
 
 
