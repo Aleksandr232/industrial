@@ -91,7 +91,7 @@
     .scheme .arrow-down{
         position: relative;
         top:269px;
-        left: 223px;
+        left: 237px;
         transform: rotate(93deg);
 
     }
@@ -120,7 +120,7 @@
     .img_grid {
         display: grid;
         grid-template-columns: repeat(3, 122px);
-        justify-content: center;
+        justify-content: start;
     }
 
     .carousel-inner{
