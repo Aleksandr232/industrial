@@ -75,7 +75,8 @@
 
 .catalog-item {
     text-align: center;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    box-shadow:  1px 1px 1px 1px rgb(0 0 0 / 10%);
 }
 
 .catalog-head {
